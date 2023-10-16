@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+}
+body{
+    background-color: #43ee7f;
+}
+@media (max-width:1440px) {
+    body{
+        background-color: #044204 ;
+    }
+}
+@media (max-width:1024px) {
+    body{
+        background-color: #945b0a ;
+    }
+}
+@media (max-width:768px) {
+    body{
+        background-color:aqua ;
+    }
+}
+@media (max-width:425px) {
+    body{
+        background-color: #ff0000 ;
+    }
+}
