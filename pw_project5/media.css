@@ -1,0 +1,53 @@
+@media (width<=425px){
+    .list{
+        display: none;
+    }
+    .hamberger,.greeting{
+        display: inline-block;
+    }
+    .hamberger img{
+       width: 20px;
+    }
+    .greeting{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .greeting img{
+        width: 10vw;
+        
+    }
+    /* hero section */
+    .hero-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-left-headline{
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px;
+    }
+    .hero-right-image img{
+        width: 50vw;
+    }
+    /* project section */
+    .project-image-section{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        max-width: 100% ;
+        /* flex-wrap: wrap; */
+    }
+    
+    .project-image-section img{
+        width:30vw;
+       
+    }
+
+    
+}
