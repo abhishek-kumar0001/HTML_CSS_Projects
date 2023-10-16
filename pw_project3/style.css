@@ -1,0 +1,73 @@
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+   background-image: url(./assets/cover-image.jpeg);
+   background-repeat: no-repeat;
+   /* background-size: cover; */
+   background-size: 100% 112% ;
+   height: 100vh;
+   min-width: 80vw ;
+}
+.container{
+    background-color: #000000;
+    height:15vh;
+}
+.flex{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo img{
+    width: 60%;
+    margin-left: 40px;
+}
+.list{
+    color: #ffffff;
+    list-style: none;
+    column-gap: 50px;
+}
+
+.list .line{
+    background-color: #ffffff;
+    height: 50px;
+    width: 1px;
+}
+.buy-1-token button{
+    background-color: #ca0997;
+    color: #ffffff;
+    padding: 10px 25px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 10%;
+}
+.hero-section{
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: var(100%-15vh);
+    margin-top: 7%;
+    color: #ffffff;
+}
+.hero-heading{
+    /* width: 25vw; */
+    font-size: 25px;
+}
+.hero-para{
+    font-size: 18px;
+}
+.request-early-access button{
+    color: #ffffff;
+    background-color: #ca0997;
+    padding: 5px 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5%;
+}
